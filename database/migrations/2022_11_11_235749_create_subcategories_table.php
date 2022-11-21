@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('nameSub', 50);
             $table->text('description')->nullable();
-            $table->text('photo')->nullable();
+            $table->text('image')->nullable();
             //$table->Integer('category_id');
             $table->timestamps();
         });
